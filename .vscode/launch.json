@@ -13,4 +13,12 @@
             "webRoot": "${}"
         }
     ]
+    "authors": [
+        {
+            "name": "twala thembinkosi",
+            "email": "twala.emm@gmail.com",
+            "homepage": "https://github.com/TwalaT-Code",
+            "role": "Developer"
+        }
+    ]
 }
