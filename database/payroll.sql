@@ -272,6 +272,10 @@ INSERT INTO `users` (`id`, `doctor_id`, `name`, `address`, `contact`, `username`
 
 --
 -- Indexes for dumped tables
+
+
+
+
 --
 
 --

@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	$user=mysqli_real_escape_string($conn,$_POST['username']);
 	$passw=mysqli_real_escape_string($conn,$_POST['password']);
 
-	$sql="SELECT id FROM users WHERE username='$user' AND password='$passw'";
+	$sql="SELECT id FROM users";
 	$result = mysqli_query($conn,$sql);
 	$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 
